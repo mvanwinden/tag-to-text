@@ -4,7 +4,7 @@ A simple Python script for extracting the contents of XML or HTML tags from a so
 ## Usage
 ``` bash
 git https://github.com/mvanwinden/tag-to-text/
-python tag-to-text.py 'sourceXML' 'tagName' 'outputFile'
+python tag-to-text.py 'sourceFile' 'tagName' 'outputFile'
 ```
 
 The script takes three command line arguments: 
@@ -13,4 +13,5 @@ The script takes three command line arguments:
 * **tagName** is the path to the text file you want to compare with the source file.
 * **outputFile** is the path to the new file that will be created, containing the contents between the tags in the source file. If the output file is not defined, it defaults to the name of the source file (without the path), plus '_tags.txt'.
 
+## Dependencies
 To run this script, you must have Python 3.x installed on your system. The script uses the built-in libraries os, sys, and re. No additional dependencies are required.
